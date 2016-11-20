@@ -1,6 +1,6 @@
 ﻿namespace PinPads
 {
-    partial class Form1
+    partial class PinPads
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -30,13 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // PinPads
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(488, 315);
-            this.Name = "Form1";
+            this.Name = "PinPads";
             this.Text = "Form1";
+            this.Shown += new System.EventHandler(this.PinPads_Shown);
             this.ResumeLayout(false);
 
         }
